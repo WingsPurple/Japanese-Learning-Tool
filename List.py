@@ -1,3 +1,12 @@
+# for alphabet
+# list[0] is the hiragana/katana
+# list[1] is the romaji
+#
+# for kanji
+# list[0] is the kanji
+# list[1] is the hiragana/katakana
+# list[2] is the romaji
+
 Japanese_Hiragana_Vowels = [
     ('あ', 'a'),
     ('い', 'i'),
@@ -303,42 +312,42 @@ Japanese_Katakana_P = [
 ]
 
 Japanese_Hiragana_All = [
-    Japanese_Hiragana_Vowels,
-    Japanese_Hiragana_B,
-    Japanese_Hiragana_D,
-    Japanese_Hiragana_G,
-    Japanese_Hiragana_H,
-    Japanese_Hiragana_K,
-    Japanese_Hiragana_M,
-    Japanese_Hiragana_N,
-    Japanese_Hiragana_P,
-    Japanese_Hiragana_R,
-    Japanese_Hiragana_S,
-    Japanese_Hiragana_T,
-    Japanese_Hiragana_W,
-    Japanese_Hiragana_Y,
-    Japanese_Hiragana_Z,
+    *Japanese_Hiragana_Vowels,
+    *Japanese_Hiragana_B,
+    *Japanese_Hiragana_D,
+    *Japanese_Hiragana_G,
+    *Japanese_Hiragana_H,
+    *Japanese_Hiragana_K,
+    *Japanese_Hiragana_M,
+    *Japanese_Hiragana_N,
+    *Japanese_Hiragana_P,
+    *Japanese_Hiragana_R,
+    *Japanese_Hiragana_S,
+    *Japanese_Hiragana_T,
+    *Japanese_Hiragana_W,
+    *Japanese_Hiragana_Y,
+    *Japanese_Hiragana_Z,
 ]
 
 Japanese_Katakana_All = [
-    Japanese_Katakana_Vowels,
-    Japanese_Katakana_B,
-    Japanese_Katakana_D,
-    Japanese_Katakana_G,
-    Japanese_Katakana_H,
-    Japanese_Katakana_K,
-    Japanese_Katakana_M,
-    Japanese_Katakana_N,
-    Japanese_Katakana_P,
-    Japanese_Katakana_R,
-    Japanese_Katakana_S,
-    Japanese_Katakana_T,
-    Japanese_Katakana_W,
-    Japanese_Katakana_Y,
-    Japanese_Katakana_Z,
+    *Japanese_Katakana_Vowels,
+    *Japanese_Katakana_B,
+    *Japanese_Katakana_D,
+    *Japanese_Katakana_G,
+    *Japanese_Katakana_H,
+    *Japanese_Katakana_K,
+    *Japanese_Katakana_M,
+    *Japanese_Katakana_N,
+    *Japanese_Katakana_P,
+    *Japanese_Katakana_R,
+    *Japanese_Katakana_S,
+    *Japanese_Katakana_T,
+    *Japanese_Katakana_W,
+    *Japanese_Katakana_Y,
+    *Japanese_Katakana_Z,
 ]
 
 Japanese_All = [
-    Japanese_Hiragana_All,
-    Japanese_Katakana_All
+    *Japanese_Hiragana_All,
+    *Japanese_Katakana_All
 ]
